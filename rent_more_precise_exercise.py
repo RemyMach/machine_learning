@@ -101,6 +101,7 @@ for i in np.unique(xtrain["arrondissement"]):
     te_arr = xtest['arrondissement']==i
     #dans xtrain_arr on a toutes les surface avec les arrondissement groupby arrondissement
     #dans ytrain_arr on a tout les prices groupby arrondissement
+    #tr_arr représente la clé de la ligne
     xtrain_arr = xtrain[tr_arr]
     ytrain_arr = ytrain[tr_arr]
 
